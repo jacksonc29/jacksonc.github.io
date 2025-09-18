@@ -1,0 +1,24 @@
+html {
+    --text: #050315;
+--background: #fbfbfe;
+--primary: #490b0b;
+--secondary: #cecece;
+--accent: #d7d2d2;
+}
+
+body {
+    color: var(--text);
+    background: var(--background);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--primary);
+}
+
+p {
+    background: var(--accent);
+}
+
+li
