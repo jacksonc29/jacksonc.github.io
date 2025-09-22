@@ -9,16 +9,22 @@ html {
 body {
     color: var(--text);
     background: var(--background);
+    font-family: "libre basckervill" ;
 }
 
 h1,
 h2,
 h3 {
     color: var(--primary);
+    font-family: "kapakana" ;
 }
 
 p {
     background: var(--accent);
 }
 
-li
+li::marker {
+    color: var(--secondary);
+}
+
+img {}
