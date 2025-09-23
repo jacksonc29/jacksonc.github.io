@@ -1,8 +1,8 @@
 html {
-    --text: #050315;
---background: #fbfbfe;
---primary: #490b0b;
---secondary: #cecece;
+    --text: #000000;
+--background: #d8d8d8;
+--primary: #ffffff;
+--secondary: #e7e0e0;
 --accent: #d7d2d2;
 }
 
@@ -17,7 +17,8 @@ h2,
 h3 {
     color: var(--primary);
     font-family: "kapakana" ;
-}
+    font-size: 50px;
+    font-weight: 500;
 
 p {
     background: var(--accent);
