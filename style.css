@@ -6,6 +6,11 @@ html {
 --accent: #d7d2d2;
 }
 
+* {
+    border: 2px solid;
+    
+  
+
 body {
     color: var(--text);
     background: var(--background);
